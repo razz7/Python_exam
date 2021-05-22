@@ -16,6 +16,7 @@ notebooks/python_handin
 
 **/nltk_data/tokenizers/
 
+**/nltk_data
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
