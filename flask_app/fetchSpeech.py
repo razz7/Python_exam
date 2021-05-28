@@ -58,4 +58,4 @@ def getspeech():
         # .getText() method is added to extract content from each <p> tag, so the <p> tag is not included:
             f.write(line.getText())
 
-    return "Done"
+    return "Speeches collected"
