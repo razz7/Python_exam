@@ -18,6 +18,8 @@ notebooks/python_handin
 
 **/nltk_data
 
+/flask_app/speeches/
+
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
