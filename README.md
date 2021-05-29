@@ -15,4 +15,8 @@
    ´RUN pip install wordcloud´
    'RUN pip install vaderSentiment´
    ´RUN pip install -U textblob´
+   
+5. Status (What has been done (and if anything: what was not done))
+
+6. List of Challenges you have set up for your self (The things in your project you want to highlight)
 
