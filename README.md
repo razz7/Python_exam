@@ -7,3 +7,12 @@
 
 2. Project description: Using NLP and other techniques in Python, we analyze US presidents SOTU speeches. The objective is to identify possible differences in the set of speeches and if possible, their causes, such as party, economical conditions and historical events.
 
+3. Major libraries used: pandas, matplotlib, numpy, nltk, torch
+
+4. The following libraries need to be installed (besides existing libraries in the semester notebooks). In Dockerfile, add the following lines at the bottom and build the project:
+   ´RUN pip install -U textblob´
+   ´RUN pip install transformers´
+   ´RUN pip install wordcloud´
+   'RUN pip install vaderSentiment´
+   ´RUN pip install -U textblob´
+
