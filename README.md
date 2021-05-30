@@ -16,7 +16,12 @@
    'RUN pip install vaderSentiment´
    ´RUN pip install -U textblob´
    
-5. Status (What has been done (and if anything: what was not done))
+5. Status: We have done what we planned to do. Ideally, we would have liked to investigate and tweak the LDA topic analysis parameters further but due to the size of the topic, time became a constraint.
 
-6. List of Challenges you have set up for your self (The things in your project you want to highlight)
+6. List of challenges:
+Fetch the relevant data
+Persist the fetched data
+Clean the data in order to make it usable for analysis
+Analyse the data with relevant methods
+Present the results visually and in text
 
