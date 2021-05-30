@@ -2,7 +2,7 @@ import pandas as pd
 
 def lixdata():
 
-    df_first_clean = pd.read_pickle('../pickled_data/data_first_clean.pkl')
+    df_first_clean = pd.read_pickle('./pickled_data/data_first_clean.pkl')
 
 
     # Copy main dataframe (first clean - we don't want lemmatization here!):

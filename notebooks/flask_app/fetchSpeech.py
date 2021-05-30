@@ -50,7 +50,7 @@ def getspeech():
         text = soup.find_all('p')[1:-1]
     
     # Sets filename and increments year:
-        filename = "./speeches/" + year + ".txt" 
+        filename = "./speeches_for_flask/" + year + ".txt" 
     
     # Creates file:
         f = open(filename ,"w+")
