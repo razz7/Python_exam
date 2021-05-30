@@ -9,7 +9,7 @@
 
 3. Major libraries used: pandas, matplotlib, numpy, nltk, torch
 
-4. The following libraries need to be installed (besides existing libraries in the semester notebooks). In Dockerfile, add the following lines at the bottom and build the project:
+4. The following libraries need to be installed (besides existing libraries in the semester notebooks). In Dockerfile, add the following lines at the bottom and build the project:/n
    ´RUN pip install -U textblob´
    ´RUN pip install transformers´
    ´RUN pip install wordcloud´
