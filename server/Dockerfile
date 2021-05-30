@@ -60,7 +60,7 @@ ENV PATH="${PATH}:/tmp"
 USER $NB_UID
 # WORKDIR $HOME/work/modules
 WORKDIR $HOME
-ENV FLASK_APP="flask/flask_app.py"
+ENV FLASK_APP="flask_app/main.py"
 ENV JUPYTER_RUNTIME_DIR="/tmp"
 # RUN echo "$PWD"
 # COPY ./flask/flask_app.py flask_app.py

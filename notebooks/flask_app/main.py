@@ -20,7 +20,7 @@ def speech():
 @app.route('/showdata')
 def get_tabel():
     #reads pickle data and displays it
-    df = pd.read_pickle("../notebooks/pickled_data/data_for_flask.pkl")
+    df = pd.read_pickle("../pickled_data/data_for_flask.pkl")
     df2 = df.drop(columns = ['speech'])
     return df2.to_html()
 

@@ -4,7 +4,7 @@ from textblob import TextBlob
 
 def sentiment():
     #Sentiment analysis on Polarity and Subjectivity for all speeches using TextBlob:
-    df_first_clean = pd.read_pickle('../notebooks/pickled_data/data_first_clean.pkl')
+    df_first_clean = pd.read_pickle('../pickled_data/data_first_clean.pkl')
 
     def sentiment(text):
         try:
