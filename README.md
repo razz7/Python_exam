@@ -16,6 +16,13 @@
    'RUN pip install vaderSentiment´
    ´RUN pip install -U textblob´
    
+   To run the flask_app you need to run the following commads in a terminal where ever you clone the repo to:
+   `docker-compose up --build`
+   
+   `docker exec -it -e FLASK_APP="flask_app/main.py" notebookserver bash`
+   
+   `flask run --host=0.0.0.0`
+   
 5. Status: We have done what we planned to do. Ideally, we would have liked to investigate and tweak the LDA topic analysis parameters further but due to the size of the topic, time became a constraint.
 
 6. List of challenges:
