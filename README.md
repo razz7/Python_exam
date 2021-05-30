@@ -9,7 +9,7 @@
 
 3. Major libraries used: pandas, matplotlib, numpy, nltk, torch
 
-4. The following libraries need to be installed (besides existing libraries in the semester notebooks). In Dockerfile, add the following lines at the bottom and build the project:/n
+4. The following libraries need to be installed (besides existing libraries in the semester notebooks). In Dockerfile, add the following lines at the bottom and build the project:
    ´RUN pip install -U textblob´
    ´RUN pip install transformers´
    ´RUN pip install wordcloud´
@@ -19,9 +19,9 @@
 5. Status: We have done what we planned to do. Ideally, we would have liked to investigate and tweak the LDA topic analysis parameters further but due to the size of the topic, time became a constraint.
 
 6. List of challenges:
-Fetch the relevant data
-Persist the fetched data
-Clean the data in order to make it usable for analysis
-Analyse the data with relevant methods
-Present the results visually and in text
+Fetch the relevant data.
+Persist the fetched data.
+Clean the data in order to make it usable for analysis.
+Analyse the data with relevant methods.
+Present the results visually and in text.
 
